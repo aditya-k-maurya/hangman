@@ -1,25 +1,27 @@
-.btn{
-  width:100%;
-  border: 3px solid black;
-  aspect-ratio: 1/1;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  padding: 0.5rem;
-  font-weight: bold;
-  cursor: pointer;
-  color: black;
+.btn {
+	width: 100%;
+	border: 3px solid rgb(151, 151, 151);
+	aspect-ratio: 1/1;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	padding: 0.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	color: rgb(44, 44, 44);
 }
 
-.btn.active{
-  background-color: hsl(200,100%, 50%);
-  color: white;
+.btn.active {
+	background-color: hsl(200, 100%, 50%);
+	color: rgb(172, 172, 172);
 }
 
-.btn.inactive{
-  opacity: .3;
+.btn.inactive {
+	opacity: 0.3;
+	background-color: rgb(255, 255, 255);
+
 }
 
 .btn:hover:not(:disabled),
-.btn:focus:not(:disabled){
-  background-color: hsl(200,100%, 75%);
+.btn:focus:not(:disabled) {
+	background-color: hsl(200, 100%, 75%);
 }

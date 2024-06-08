@@ -4,7 +4,7 @@ const HEAD = (
 			width: "50px",
 			height: "50px",
 			borderRadius: "100%",
-			border: "10px solid black",
+			border: "10px solid white",
 			position: "absolute",
 			top: "50px",
 			right: "-30px",
@@ -18,7 +18,7 @@ const BODY = (
 			width: "10px",
 			height: "100px",
 			position: "absolute",
-			background: "black",
+			background: "white",
 			top: "120px",
 			right: "0px",
 		}}
@@ -31,7 +31,7 @@ const RIGHT_ARM = (
 			width: "100px",
 			height: "10px",
 			position: "absolute",
-			background: "black",
+			background: "white",
 			top: "150px",
 			right: "-100px",
 			rotate: "-30deg",
@@ -46,7 +46,7 @@ const LEFT_ARM = (
 			width: "100px",
 			height: "10px",
 			position: "absolute",
-			background: "black",
+			background: "white",
 			top: "150px",
 			right: "10px",
 			rotate: "30deg",
@@ -61,7 +61,7 @@ const RIGHT_LEG = (
 			width: "100px",
 			height: "10px",
 			position: "absolute",
-			background: "black",
+			background: "white",
 			top: "210px",
 			right: "-90px",
 			rotate: "60deg",
@@ -76,7 +76,7 @@ const LEFT_LEG = (
 			width: "100px",
 			height: "10px",
 			position: "absolute",
-			background: "black",
+			background: "white",
 			top: "210px",
 			right: "0px",
 			rotate: "-60deg",
@@ -99,7 +99,7 @@ const HangmanDrawing = ({ numberOfGuesses }: HangmanDrawingProps) => {
 				style={{
 					height: "50px",
 					width: "10px",
-					background: "black",
+					background: "white",
 					// marginLeft: "120px",
 					position: "absolute",
 					top: 0,
@@ -111,7 +111,7 @@ const HangmanDrawing = ({ numberOfGuesses }: HangmanDrawingProps) => {
 				style={{
 					height: "10px",
 					width: "200px",
-					background: "black",
+					background: "white",
 					marginLeft: "120px",
 				}}
 			/>
@@ -120,12 +120,12 @@ const HangmanDrawing = ({ numberOfGuesses }: HangmanDrawingProps) => {
 				style={{
 					height: "400px",
 					width: "10px",
-					background: "black",
+					background: "white",
 					marginLeft: "120px",
 				}}
 			/>
 
-			<div style={{ height: "10px", width: "250px", background: "black" }} />
+			<div style={{ height: "10px", width: "250px", background: "white" }} />
 		</div>
 	);
 };
